@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_srhoton_nd_cloud_development_1731345236984-pr-trigger-input-set
+  identifier: Build_srhoton_nd_cloud_development_1731345236984prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_srhoton_nd_cloud_development_1731345236984
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
